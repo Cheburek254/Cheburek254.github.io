@@ -127,3 +127,8 @@ footer{
     height: auto;
     border-radius: 5%;
 }
+.craft{
+    display: flex;
+    flex-direction: row;
+    
+}
