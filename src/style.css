@@ -146,3 +146,10 @@ footer{
 .hh{
     margin-top: 50px;
 }
+.add{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}

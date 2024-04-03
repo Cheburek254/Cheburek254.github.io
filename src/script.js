@@ -96,6 +96,7 @@ for (let i = 0;i<objects.length;i++){
       </div>
       <div class="arrow"><img src="img/arrow.png"></div>
       <div class="icon"><img class="block-img" src="${receips[objects[i]][0]}"></div>
+      <div class="add">Добавить в избранное</div>
         `
       if(hist.length == 0){
         document.cookie = `history=${objects[i]};max-age=10000000000`
@@ -131,8 +132,10 @@ btn_history.addEventListener('click',function(){
 </div>
 <div class="arrow"><img src="img/arrow.png"></div>
 <div class="icon"><img class="block-img" src="${receips[element][0]}"></div>
+
 </div>
   `
   })
   
 })
+let add = document.querySelector('.add')
